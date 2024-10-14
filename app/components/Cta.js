@@ -30,8 +30,8 @@ function Cta() {
                 viewport={{ once: false, amount: 0.6 }}
                 className="mb-10"
               >
-                Whether you're planning a weekend getaway, a business trip, or
-                just need a reliable vehicle for the day, our app makes it
+                Whether you&apos;re planning a weekend getaway, a business trip,
+                or just need a reliable vehicle for the day, our app makes it
                 simple to find the perfect rental car. With just a few taps, you
                 can browse a wide selection of vehicles, choose the one that
                 fits your needs, and book it instantly.
