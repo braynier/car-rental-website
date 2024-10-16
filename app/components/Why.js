@@ -13,7 +13,7 @@ function Why() {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
           className="h2 text-center"
         >
           Unmatched excellence and customer satisfaction
@@ -22,7 +22,7 @@ function Why() {
           variants={fadeIn("up", 0.4)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
           className="mx-auto mb-2 max-w-[680px] text-center"
         >
           Our destination to providing exceptional services sets us apart from
@@ -33,7 +33,7 @@ function Why() {
           variants={fadeIn("up", 0.6)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
           className="mb-6 hidden justify-center md:flex xl:mb-2"
         >
           <Image
@@ -47,7 +47,7 @@ function Why() {
           variants={fadeIn("up", 0.9)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.4 }}
+          viewport={{ once: true, amount: 0.4 }}
           className="flex flex-wrap justify-center gap-4 xl:grid xl:grid-cols-3 xl:gap-x-[30px] xl:gap-y-0"
         >
           <div className="flex max-w-[160px] flex-col items-center p-2 text-center xl:max-w-none xl:p-0">

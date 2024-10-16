@@ -25,7 +25,7 @@ function About() {
             variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.6 }}
+            viewport={{ once: true, amount: 0.6 }}
             className="mb-8 flex-1 xl:mb-0"
           >
             <Image
@@ -42,7 +42,7 @@ function About() {
                 variants={fadeIn("up", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+                viewport={{ once: true, amount: 0.6 }}
                 className="h2"
               >
                 Car services simplified
@@ -51,7 +51,7 @@ function About() {
                 variants={fadeIn("up", 0.6)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+                viewport={{ once: true, amount: 0.6 }}
                 className="mb-[42px] max-w-md"
               >
                 Rent choose, and repair with ease. Our convenient locations,
@@ -62,7 +62,7 @@ function About() {
                 variants={fadeIn("up", 0.8)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
                 className="mb-12 flex items-center gap-x-8"
               >
                 <div className="flex w-[100px] flex-col">
@@ -108,7 +108,7 @@ function About() {
                 variants={fadeIn("up", 1)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+                viewport={{ once: true, amount: 0.6 }}
                 className="hidden h-16 w-full max-w-[184px] rounded-[10px] bg-accent text-[13px] font-medium uppercase tracking-[2px] text-white hover:bg-accent-hover xl:block"
               >
                 All cars

@@ -18,7 +18,7 @@ function Cta() {
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+                viewport={{ once: true, amount: 0.6 }}
                 className="h2"
               >
                 Download our App now and hit the road with ease
@@ -27,7 +27,7 @@ function Cta() {
                 variants={fadeIn("up", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+                viewport={{ once: true, amount: 0.6 }}
                 className="mb-10"
               >
                 Whether you&apos;re planning a weekend getaway, a business trip,
@@ -40,7 +40,7 @@ function Cta() {
                 variants={fadeIn("right", 0.6)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.6 }}
+                viewport={{ once: true, amount: 0.6 }}
                 className="flex justify-center gap-x-3 md:justify-start"
               >
                 <button className="btn-cta">
@@ -66,7 +66,7 @@ function Cta() {
             variants={fadeIn("left", 0.8)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.6 }}
+            viewport={{ once: true, amount: 0.6 }}
             className="order-1 flex flex-1 justify-center md:order-none"
           >
             <Image

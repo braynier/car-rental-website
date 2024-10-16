@@ -47,7 +47,7 @@ function Header() {
               src={"/icons/Logo_website.svg"}
               width={194}
               height={64}
-              alt="Logo of the website"
+              alt="Voyage Rentals official logo"
             />
           </Link>
           <div

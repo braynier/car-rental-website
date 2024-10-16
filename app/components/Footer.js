@@ -15,16 +15,16 @@ function Footer() {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.5 }}
           className="flex flex-col gap-x-5 gap-y-14 lg:flex-row lg:justify-between"
         >
           <div className="flex flex-1 flex-col gap-y-8">
             <Link to="home" smooth={true} spy={true} className="cursor-pointer">
               <Image
-                src={"/icons/logo.svg"}
+                src={"/icons/Logo_website.svg"}
                 width={200}
                 height={200}
-                alt="Logo"
+                alt="Voyage Rentals official logo"
               />
             </Link>
             <div className="text-secondary">

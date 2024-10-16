@@ -18,7 +18,7 @@ function Hero() {
               variants={fadeIn("down", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               className="h1"
             >
               Explore the finest <span className="text-accent">Global </span>
@@ -29,7 +29,7 @@ function Hero() {
               variants={fadeIn("down", 0.4)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.6 }}
+              viewport={{ once: true, amount: 0.6 }}
               className="description mx-auto mb-6 max-w-[550px] xl:mx-0 xl:mb-10"
             >
               Find your ideal ride for any trip with our diverse range of
@@ -39,7 +39,7 @@ function Hero() {
               variants={fadeIn("down", 0.6)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.8 }}
+              viewport={{ once: true, amount: 0.8 }}
               className="flex justify-center gap-x-3 xl:justify-start"
             >
               <button className="btn-cta">
@@ -47,7 +47,7 @@ function Hero() {
                   src={"icons/buttons/google-play.svg"}
                   width={132}
                   height={36}
-                  alt="Image of Google Play Store"
+                  alt="Google Play Store Logo"
                 />
               </button>
               <button className="btn-cta">
@@ -55,7 +55,7 @@ function Hero() {
                   src={"icons/buttons/app-store.svg"}
                   width={132}
                   height={36}
-                  alt="Image of Apple  Store"
+                  alt=" Apple  Store Logo"
                 />
               </button>
             </motion.div>
@@ -64,7 +64,7 @@ function Hero() {
             variants={fadeIn("up", 0.6)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.6 }}
+            viewport={{ once: true, amount: 0.6 }}
             className="xl:top-58 relative h-full max-h-[50vh] w-full md:max-w-[70vw] xl:absolute xl:-right-[100px] xl:max-h-[542px] xl:max-w-[860px] min-[1680px]:right-[120px]"
           >
             <Image
@@ -72,7 +72,7 @@ function Hero() {
               fill
               style={{ objectFit: "contain" }}
               priority
-              alt="An image of a red Volkswagen car in the hero section"
+              alt="An image of a red Volkswagen in the introductionary section"
             />
           </motion.div>
         </div>
@@ -82,7 +82,7 @@ function Hero() {
           initial={{ y: "-100%" }}
           animate={{ y: 0 }}
           transition={{ ease: easeInOut }}
-          viewport={{ once: false, amount: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
           className="fixed top-[80px] z-10 w-full max-w-[1920px]"
         >
           <Search />
@@ -93,7 +93,7 @@ function Hero() {
             variants={fadeIn("up", 0.8)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.2 }}
           >
             <Search />
           </motion.div>

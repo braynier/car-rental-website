@@ -132,7 +132,7 @@ function CarSlider() {
       variants={fadeIn("up", 0.4)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.2 }}
       className="container mx-auto"
     >
       <Swiper
@@ -146,7 +146,12 @@ function CarSlider() {
           return (
             <SwiperSlide key={index}>
               <div className="mx-auto max-w-[385px] sm:mx-0">
-                <Image src={car.image} width={380} height={284} alt="" />
+                <Image
+                  src={car.image}
+                  width={380}
+                  height={284}
+                  alt={car.name}
+                />
                 <div className="flex justify-between">
                   <div>
                     <div className="text-[13px] uppercase text-secondary">
@@ -174,7 +179,7 @@ function CarSlider() {
                             src={item.icon}
                             width={24}
                             height={24}
-                            alt=""
+                            alt="Star rating icon"
                           />
                         </div>
                         <div className="text-[12px] uppercase">{item.text}</div>

@@ -13,7 +13,7 @@ const testimonialData = [
   {
     message:
       "I had an amazing experience with this car rental company! The staff was super friendly, the booking process was quick and easy, and the car was spotless and ready when I arrived. I’ll definitely be renting from them again next time I'm in town!",
-    avatar: "/images/testimonial/avatar.png", // Placeholder for image URLs
+    avatar: "/images/testimonial/avatar.png",
     name: "Sarah Thompson",
     job: "Marketing Manager",
   },
@@ -53,7 +53,7 @@ function TestimonialsSlider() {
       variants={fadeIn("up", 0.4)}
       initial="hidden"
       whileInView={"show"}
-      viewport={{ once: false, amount: 0.6 }}
+      viewport={{ once: true, amount: 0.6 }}
       className="container mx-auto"
     >
       <Swiper
@@ -78,7 +78,7 @@ function TestimonialsSlider() {
                   src={avatar}
                   width={64}
                   height={64}
-                  alt="Testimonial"
+                  alt="Testimonial picture of a woman"
                 />
                 <div className="text-lg font-medium">{name}</div>
                 <div className="text-secondary">{job}</div>
